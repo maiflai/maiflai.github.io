@@ -1,0 +1,223 @@
+body {
+	font:smaller sans-serif, arial, verdana;
+	text-align:center;
+	margin-top:68px;
+	margin-right:68px;
+	padding-right:50px;/* allows a little breathing space from the frame */
+	border-top:2px solid #6699FF;
+	border-right:2px solid #6699FF;	
+/*margin:0px;*/}
+a img { border:0px;}
+/*h3 {
+	color:#FFFF66;
+	background:#6699FF;
+	width:100%;
+	text-align:left;
+	border-top:1px grey solid;
+	border-left:1px grey solid;
+	border-right:1px black solid;
+	border-bottom:1px black solid;
+	}*/
+
+.frameBorder{
+	background:#6699FF;
+}
+
+#pictureMenu{
+	position:absolute;
+	top:0px;
+	right:0px;
+	z-index:0;
+	display:none;
+}
+
+#globalMenu{
+	position:relative;
+	left:-10px;
+	top:-2px;
+	width:750px;
+	background:#6699FF;
+	padding:5px;
+	text-align:center;
+	z-index:3;
+	}
+
+#globalMenu a {
+	margin-left:10px;
+	margin-right:10px;
+	text-decoration:none;
+	background:#6699FF;
+	color:white;
+	}
+
+#globalMenu a:active {}
+#globalMenu a:link {}
+#globalMenu a:visited {}
+#globalMenu a:hover {
+	color:#6699FF;
+	background:white;
+	}
+
+.hasSubMenu {
+	display:inline;
+	}
+
+.subMenu {
+	position:relative;
+	top:10px;
+	display:none;
+	}
+
+
+.menuTitle{
+	font-size:small;
+	color:red;
+	padding-bottom:5px;
+	}
+.menuItem{
+	font-size:small;
+	/*text-indent:15px;*/
+	}
+
+.menuItem a {
+	background-image: url(../images/raquo.gif);
+	background-position: 0px 50%;
+	background-repeat: no-repeat;
+	margin-left:5px;
+	padding-left:10px;
+	padding-right:5px;
+	text-decoration:none;
+	}
+
+.menuItem a:hover {
+	color:red;
+}
+
+.localMenu{
+	position:relative;
+	float:right;
+	padding:10px;
+	margin:10px;
+	background:#ffff90;
+	color:#336699;
+	border-top:1px solid grey;
+	border-left:1px solid grey;
+	border-right:2px solid black;
+	border-bottom:2px solid black;
+}
+
+
+#mainBody{
+	margin-top:20px;
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+	
+	
+/*	position:relative;
+	margin-top:20px;
+	margin-left:60px;
+	margin-right:125px;
+	min-width:120px;
+	min-height:200px;*/
+}
+
+.content{
+	position:relative; /* Position is declared "relative" to gain control of stacking order (z-index). */
+	/*top:0px;
+	left:0px;*/
+	width:100%;
+	min-width:120px;
+	/* external top, right, bottom, left*/
+	/*margin:0px 90px 30px 40px;*/
+	border-bottom:2px solid black;
+	/*background-color:white;*/
+	/* internal margin */
+	padding-bottom:25px;
+	/*z-index:3; /* This allows the content to overlap the right menu in narrow windows in good browsers. */
+	}
+
+#footer{
+	position:relative;
+	top:-22px;
+	margin-bottom:15px;
+	margin-right:70px;
+	width:100%;
+	font-size:smaller;
+	text-align:left;
+	}
+
+.colContainer{
+	position:relative;
+	width:100%;
+	/* a min-height will need to be set to the size of the image in the *MinCol */
+}
+.leftMinCol{
+	width:200px;
+	height:auto;
+	position:absolute;
+	top:0px;
+	left:0px;
+	}
+.rightMajCol{
+	margin-left:200px;
+	padding-left:20px;
+	}
+.leftMajCol{
+	margin-right:200px;
+	padding-right:20px
+	}
+.rightMinCol{
+	width:200px;
+	height:auto;
+	position:absolute;
+	top:0px;
+	right:0px;
+}	
+	
+.on {
+	color:green;
+	background:white;
+	}
+	
+.shadowContent {
+	position: relative;
+	/*padding: 10px; */
+	top: -4px; /* these two define the shadow 'offset'*/
+	left: -4px; /*...*/
+	/*border: 1px solid black;*/
+	}
+
+.shadowBox {
+	background-color:#999999;
+	}
+
+.backlitLink {
+	background-color:#6699FF;
+	background-image: url(../images/smallDovecote.gif);
+	background-position: 0px 50%;
+	background-repeat: no-repeat;
+	margin-left:5px;
+	padding-left:20px;
+	padding-right:5px;
+	color:white;
+	text-decoration:none;
+	font-size:75%;
+	font-style:italic;
+	vertical-align:bottom;
+	}
+a.backlitLink:hover{
+	color:red;
+	}
+	
+
+.floatLeft {
+	float:left;
+	margin-right:10px;
+	}
+
+.floatRight {
+	float:right;
+	margin-left:10px;
+	}

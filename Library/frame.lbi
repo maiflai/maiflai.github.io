@@ -1,0 +1,10 @@
+<!-- #BeginLibraryItem "/Library/pictureMenu.lbi" --><div id="pictureMenu"> 
+<table>
+<tr>
+<td><img src="../images/menu/blank.png"></td><td><img src="../images/menu/blank.png"></td></tr>
+<tr>
+<td><img src="../images/menu/blank.png"></td><td><img src="../images/menu/blank.png"></td></tr>
+</table></div><!-- #EndLibraryItem --> 
+<div class="frameBorder" style="position:absolute;z-index:0;top:68px;right:0px;width:100%;height:2px;background-image:url(../images/spacer.gif);"><img src="../images/2spacer.gif"/></div>
+<div class="frameBorder" style="position:absolute;z-index:0;top:0px;right:68px;height:100%;width:2px;background-image:url(../images/spacer.gif);"><img src="../images/2spacer.gif"/></div>
+<img src="../images/window.gif" style="position:absolute;z-index:0;right:3px;top:3px;" width="132" height="132"> 

@@ -1,0 +1,10 @@
+<div id="globalMenu">
+<a href="../welcome.html">|&nbsp;welcome&nbsp;|</a>
+<a href="../history/history.html">|&nbsp;history&nbsp;|</a>
+<a href="../today/today.html">|&nbsp;today&nbsp;|</a>
+<a href="../features/features.html">| features&nbsp;|</a>
+<a href="../activities/activities.html">|&nbsp;activities&nbsp;|</a>
+<a href="../photos/index.php">|&nbsp;photos&nbsp;|</a>
+<a href="../contact.html">|&nbsp;contact&nbsp;|</a>
+<a href="../something.html">|&nbsp;something&nbsp;different&nbsp;|</a>
+</div>
