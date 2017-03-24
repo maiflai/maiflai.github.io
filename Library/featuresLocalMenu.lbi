@@ -1,9 +1,0 @@
-
-<div class="localMenu"> 
-  <div class="menuItem"><a class="menuItem" href="../features/features.html">Features</a></div>
-  <div class="menuItem"><a class="menuItem" href="../features/sauna.html">Sauna</a></div>
-  <div class="menuItem"><a class="menuItem" href="../features/shower.html">Shower</a></div>
-  <div class="menuItem"><a class="menuItem" href="../features/sleeping.html">Sleeping</a></div>
-  <div class="menuItem"><a class="menuItem" href="../features/eating.html">Eating</a></div>
-</div>
-    
